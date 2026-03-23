@@ -1,33 +1,23 @@
 <div align="center">
 
-<!-- RGB Animated Header Banner -->
+<!-- RGB Animated Header Banner (capsule-render — GitHub whitelist) -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,25:ff7700,50:ffff00,75:00ff00,100:0000ff&height=200&section=header&text=Sec1_Group2_PaiNamNae&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=CP353004%20Software%20Engineering%20%7C%202%2F2568&descAlignY=58&descSize=16&animation=twinkling" width="100%"/>
 
-<!-- Animated Typing Effect -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&multiline=true&width=600&height=80&lines=🚢+Team+PaiNamNae+is+sailing...;⚡+Agile+Scrum+%7C+Software+Engineering" alt="Typing SVG" />
-</a>
+<!-- Badges แทน Typing SVG ที่ถูก GitHub บล็อก -->
+![Team Badge](https://img.shields.io/badge/🚢_Team-PaiNamNae-ff6b6b?style=for-the-badge)
+![Course](https://img.shields.io/badge/Course-CP353004-4ecdc4?style=for-the-badge)
+![Semester](https://img.shields.io/badge/Semester-2%2F2568-45b7d1?style=for-the-badge)
+![Methodology](https://img.shields.io/badge/Agile-Scrum-96ceb4?style=for-the-badge&logo=jira&logoColor=white)
 
 <!-- RGB Divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,25:ff7700,50:ffff00,75:00ff00,100:0000ff&height=4&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,25:ff7700,50:ffff00,75:00ff00,100:0000ff&height=4" width="100%"/>
 
 </div>
 
 <br/>
 
-## 📋 รายละเอียดโปรเจกต์
-
 > โปรเจกต์นี้เป็นส่วนหนึ่งของวิชา **CP353004 Software Engineering**  
 > ภาคการศึกษา **2/2568** — พัฒนาด้วยกระบวนการ **Agile Scrum**
-
-<div align="center">
-
-![Team Badge](https://img.shields.io/badge/Team-PaiNamNae-ff6b6b?style=for-the-badge&logo=github&logoColor=white)
-![Course](https://img.shields.io/badge/Course-CP353004-4ecdc4?style=for-the-badge&logo=book&logoColor=white)
-![Semester](https://img.shields.io/badge/Semester-2%2F2568-45b7d1?style=for-the-badge&logo=calendar&logoColor=white)
-![Methodology](https://img.shields.io/badge/Agile-Scrum-96ceb4?style=for-the-badge&logo=jira&logoColor=white)
-
-</div>
 
 ---
 
@@ -37,10 +27,10 @@
 
 ![hippo](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmZuazR0bHVmNjNiMXJldjNwM3ExbGh5Y2kyZXR3emMwbXkyM3FxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cF7QqO5DYdft6/giphy.gif)
 
-<!-- Animated RGB bar -->
+<!-- RGB pulsing bar — ใช้ SMIL <animate> เท่านั้น ไม่มี <style> -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 8" width="700" height="8">
   <defs>
-    <linearGradient id="rgb">
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#ff0000"/>
       <stop offset="16%"  stop-color="#ff7700"/>
       <stop offset="33%"  stop-color="#ffff00"/>
@@ -50,8 +40,8 @@
       <stop offset="100%" stop-color="#ff0000"/>
     </linearGradient>
   </defs>
-  <rect width="700" height="8" rx="4" fill="url(#rgb)">
-    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  <rect width="700" height="8" rx="4" fill="url(#g1)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
   </rect>
 </svg>
 
@@ -87,42 +77,62 @@
 
 <div align="center">
 
+<!-- Sailboat cards — SMIL animate only, zero <style> tags -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 120" width="720" height="120">
   <defs>
-    <style>
-      .label { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: white; }
-      .sub   { font-family: Arial, sans-serif; font-size: 11px; fill: rgba(255,255,255,0.85); }
-      .sub2  { font-family: Arial, sans-serif; font-size: 10px; fill: rgba(255,255,255,0.70); }
-      .b1 { animation: pulse 2.0s ease-in-out infinite; }
-      .b2 { animation: pulse 2.4s ease-in-out 0.3s infinite; }
-      .b3 { animation: pulse 1.8s ease-in-out 0.6s infinite; }
-      .b4 { animation: pulse 2.2s ease-in-out 0.9s infinite; }
-      @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.65} }
-    </style>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2196F3"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F44336"/>
+      <stop offset="100%" stop-color="#B71C1C"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9800"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
   </defs>
-  <rect class="b1" x="10"  y="10" width="160" height="100" rx="12" fill="#2196F3"/>
-  <text x="90"  y="40"  text-anchor="middle" font-size="26">⛵</text>
-  <text x="90"  y="62"  text-anchor="middle" class="label">Boosts</text>
-  <text x="90"  y="80"  text-anchor="middle" class="sub">แรงที่เร่งโปรเจกต์</text>
-  <text x="90"  y="98"  text-anchor="middle" class="sub2">Sprint Reviews ✓</text>
 
-  <rect class="b2" x="190" y="10" width="160" height="100" rx="12" fill="#F44336"/>
-  <text x="270" y="40"  text-anchor="middle" font-size="26">⚓</text>
-  <text x="270" y="62"  text-anchor="middle" class="label">Delays</text>
-  <text x="270" y="80"  text-anchor="middle" class="sub">สิ่งที่ดึงให้ช้าลง</text>
-  <text x="270" y="98"  text-anchor="middle" class="sub2">Server / Domain ⚠️</text>
+  <!-- Boosts -->
+  <rect x="10" y="10" width="160" height="100" rx="12" fill="url(#g2)">
+    <animate attributeName="opacity" values="1;0.6;1" dur="2.0s" repeatCount="indefinite"/>
+  </rect>
+  <text x="90" y="42" text-anchor="middle" font-size="24" font-family="serif">⛵</text>
+  <text x="90" y="63" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial" fill="white">Boosts</text>
+  <text x="90" y="80" text-anchor="middle" font-size="10" font-family="Arial" fill="#cce5ff">แรงที่เร่งโปรเจกต์</text>
+  <text x="90" y="97" text-anchor="middle" font-size="10" font-family="Arial" fill="#e3f2fd">Sprint Reviews ✓</text>
 
-  <rect class="b3" x="370" y="10" width="160" height="100" rx="12" fill="#FF9800"/>
-  <text x="450" y="40"  text-anchor="middle" font-size="26">⚠️</text>
-  <text x="450" y="62"  text-anchor="middle" class="label">Risks</text>
-  <text x="450" y="80"  text-anchor="middle" class="sub">ความเสี่ยงที่ต้องระวัง</text>
-  <text x="450" y="98"  text-anchor="middle" class="sub2">Requirements ❓</text>
+  <!-- Delays -->
+  <rect x="190" y="10" width="160" height="100" rx="12" fill="url(#g3)">
+    <animate attributeName="opacity" values="1;0.6;1" dur="2.4s" begin="0.3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="270" y="42" text-anchor="middle" font-size="24" font-family="serif">⚓</text>
+  <text x="270" y="63" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial" fill="white">Delays</text>
+  <text x="270" y="80" text-anchor="middle" font-size="10" font-family="Arial" fill="#ffcdd2">สิ่งที่ดึงให้ช้าลง</text>
+  <text x="270" y="97" text-anchor="middle" font-size="10" font-family="Arial" fill="#ffebee">Server / Domain</text>
 
-  <rect class="b4" x="550" y="10" width="160" height="100" rx="12" fill="#4CAF50"/>
-  <text x="630" y="40"  text-anchor="middle" font-size="26">🏝️</text>
-  <text x="630" y="62"  text-anchor="middle" class="label">Goals</text>
-  <text x="630" y="80"  text-anchor="middle" class="sub">เป้าหมายของทีม</text>
-  <text x="630" y="98"  text-anchor="middle" class="sub2">Agile Scrum 🎯</text>
+  <!-- Risks -->
+  <rect x="370" y="10" width="160" height="100" rx="12" fill="url(#g4)">
+    <animate attributeName="opacity" values="1;0.6;1" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="450" y="42" text-anchor="middle" font-size="24" font-family="serif">⚠️</text>
+  <text x="450" y="63" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial" fill="white">Risks</text>
+  <text x="450" y="80" text-anchor="middle" font-size="10" font-family="Arial" fill="#fff3e0">ความเสี่ยงที่ต้องระวัง</text>
+  <text x="450" y="97" text-anchor="middle" font-size="10" font-family="Arial" fill="#fff8e1">Requirements</text>
+
+  <!-- Goals -->
+  <rect x="550" y="10" width="160" height="100" rx="12" fill="url(#g5)">
+    <animate attributeName="opacity" values="1;0.6;1" dur="2.2s" begin="0.9s" repeatCount="indefinite"/>
+  </rect>
+  <text x="630" y="42" text-anchor="middle" font-size="24" font-family="serif">🏝️</text>
+  <text x="630" y="63" text-anchor="middle" font-size="13" font-weight="bold" font-family="Arial" fill="white">Goals</text>
+  <text x="630" y="80" text-anchor="middle" font-size="10" font-family="Arial" fill="#c8e6c9">เป้าหมายของทีม</text>
+  <text x="630" y="97" text-anchor="middle" font-size="10" font-family="Arial" fill="#e8f5e9">Agile Scrum 🎯</text>
 </svg>
 
 </div>
@@ -150,7 +160,6 @@
 
 <div align="center">
 
-<!-- RGB Footer Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b00ff,25:0000ff,50:00ff00,75:ffff00,100:ff0000&height=120&section=footer&text=Made+with+%E2%9D%A4+by+PaiNamNae&fontSize=20&fontColor=ffffff&fontAlignY=65&animation=twinkling" width="100%"/>
 
 </div>
