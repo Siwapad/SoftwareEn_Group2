@@ -1,4 +1,4 @@
-# 🚢 Sprint Retrospective — Sec1_Group2_PaiNamNae
+# Sprint Retrospective — Sec1_Group2_PaiNamNae
 
 > **Format:** Sailboat Retrospective (เรือแล่นสู่เกาะเป้าหมาย)  
 > **Team:** Sec1 Group 2 — PaiNamNae  
@@ -6,13 +6,13 @@
 
 ---
 
-## 🗺️ Overview
+## Overview
 
 Retrospective นี้ใช้รูปแบบ **Sailboat** (เรือใบ) โดยจินตนาการว่าโปรเจกต์คือเรือที่แล่นมุ่งสู่เกาะซึ่งเป็นเป้าหมายของทีม แต่ละหัวข้อสะท้อนปัจจัยที่ส่งผลต่อการเดินทาง ทั้งแรงหนุน แรงต้าน ความเสี่ยง และสิ่งที่ทีมต้องการพิชิต
 
 ---
 
-## ⛵ Boosts — แรงลมที่ช่วยเร่งเรือ
+## Boosts — แรงลมที่ช่วยเร่งเรือ
 
 > _What will help your project move faster?_
 
@@ -24,7 +24,7 @@ Retrospective นี้ใช้รูปแบบ **Sailboat** (เรือใ
 
 ---
 
-## ⚓ Delays — สิ่งที่ทำให้เรือช้าลง
+## Delays — สิ่งที่ทำให้เรือช้าลง
 
 > _What blockers might slow down your project from shipping at the right time?_
 
@@ -37,7 +37,7 @@ Retrospective นี้ใช้รูปแบบ **Sailboat** (เรือใ
 
 ---
 
-## ⚠️ Risks — หินโสโครกใต้น้ำ
+## Risks — หินโสโครกใต้น้ำ
 
 > _What issues might block your project from sailing smoothly?_
 
@@ -52,7 +52,7 @@ Retrospective นี้ใช้รูปแบบ **Sailboat** (เรือใ
 
 ---
 
-## 🏝️ Goals — เกาะเป้าหมาย
+## Goals — เกาะเป้าหมาย
 
 > _What are you aiming for?_
 
@@ -67,40 +67,41 @@ Retrospective นี้ใช้รูปแบบ **Sailboat** (เรือใ
 
 ---
 
-## 👥 Your Team
+## Your Team
 
 สมาชิกในทีม Sec1_Group2_PaiNamNae:
 
-| ชื่อ | บทบาท |
+| ชื่อ | บทบาท | 
 |------|--------|
-| Siwapat Phornon | Team Member |
-| Kaewpatcharat Sisan | Team Member |
-| Patapol Yayun | Team Member |
-| Fakkapon D. Sangprom | Team Member |
-| Paloma Oumsima | Team Member |
+| นราวิชญ์ คำปุทา | Team Member |
+| ศิวภาส ภูศรีอ่อน | Team Member |
+| แก้วเพ็ชรัตน์ สีสันต์ | Team Member |
+| ภคพล อยู่ยืน | Team Member |
+| ศจิษฐา ศีลธรรมดี  | Team Member |
+| ณัฐรภา ศรีวิชา | Team Member |
 
 ---
 
-## 📋 Action Items จาก Retrospective
+## Action Items จาก Retrospective
 
 จากการวิเคราะห์ board ข้างต้น ทีมควรดำเนินการดังนี้:
 
-### 🔴 High Priority
-- [ ] จัดทำ Requirements ให้ครบและชัดเจนก่อนเริ่ม Sprint ถัดไป
-- [ ] ทำความเข้าใจร่วมกันว่า Agile ≠ แค่การ Code แต่รวมถึงกระบวนการและเอกสาร
-- [ ] แก้ปัญหาเรื่องเซิร์ฟเวอร์และ Domain
+### High Priority
+- [✓] จัดทำ Requirements ให้ครบและชัดเจนก่อนเริ่ม Sprint ถัดไป
+- [✓] ทำความเข้าใจร่วมกันว่า Agile ≠ แค่การ Code แต่รวมถึงกระบวนการและเอกสาร
+- [✓] แก้ปัญหาเรื่องเซิร์ฟเวอร์และ Domain
 
-### 🟡 Medium Priority
-- [ ] วางแผนรับมือ Scenario ที่ไม่คาดคิด
-- [ ] ทบทวน Sprint Planning ให้ครอบคลุมทุกสมาชิก
+### Medium Priority
+- [✓] วางแผนรับมือ Scenario ที่ไม่คาดคิด
+- [✓] ทบทวน Sprint Planning ให้ครอบคลุมทุกสมาชิก
 
-### 🟢 Keep Doing
-- [ ] รักษาจังหวะการทำงานแบบ Sprint ต่อเนื่อง
-- [ ] ใช้ Agile Scrum framework อย่างสม่ำเสมอ
+### Keep Doing
+- [✓] รักษาจังหวะการทำงานแบบ Sprint ต่อเนื่อง
+- [✓] ใช้ Agile Scrum framework อย่างสม่ำเสมอ
 
 ---
 
-## 🔄 Retrospective Format Reference
+## Retrospective Format Reference
 
 ```
 Sailboat Retrospective
