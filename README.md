@@ -49,7 +49,7 @@
 
 | รหัสนักศึกษา | ชื่อ-นามสกุล | GitHub |
 | :--- | :--- | :--- |
-| `643020037-5` | นายจักรพันธ์ แสงพรม | ☠️ Dead or Alive |
+| `643020037-5` | นายจักรพันธ์ แสงพรม | ☠️ Dead |
 | `663380017-6` | นายนราวิชญ์ คำปุทา | [![naravich176](https://img.shields.io/badge/-naravich176-181717?style=flat&logo=github)](https://github.com/naravich176) |
 | `663380026-5` | นายศิวภาส ภูศรีอ่อน | [![PunKunGG](https://img.shields.io/badge/-PunKunGG-181717?style=flat&logo=github)](https://github.com/PunKunGG) |
 | `663380029-9` | นายแก้วเพ็ชรัตน์ สีสันต์ | [![JengCharat](https://img.shields.io/badge/-JengCharat-181717?style=flat&logo=github)](https://github.com/JengCharat) |
